@@ -9,7 +9,7 @@ import Checkout from './components/Checkout';
 const App = () => {
   return (
     <CartProvider>
-      <Router>
+      <Router basename="/ecomm-app/">
         <div className="container mt-4">
           <h1 className="text-center mb-4">E-Commerce Store</h1>
           <Routes>
